@@ -1,0 +1,32 @@
+{
+  "name": "menus-list",
+  "version": "0.0.1",
+  "description": "terminal-kit based, menus-based list",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "example": "tsc -b ./tsconfig.example.json && node ./build/example/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terminal-kit/menus-list.git"
+  },
+  "keywords": [
+    "terminal-kit"
+  ],
+  "author": "Alex <alex@milyutin.work>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/terminal-kit/menus-list/issues"
+  },
+  "homepage": "https://github.com/terminal-kit/menus-list#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.2.4",
+    "ts-jest": "^27.0.5"
+  },
+  "dependencies": {
+    "terminal-kit": "^2.1.6"
+  }
+}
