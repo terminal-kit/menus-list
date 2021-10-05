@@ -76,5 +76,6 @@ const example2 = () => {
     // term.processExit();
 };
 
-example2();
+// example2();
+export {example1, example2};
 
